@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form page</title>
+</head>
+
+<body>
+
+    <form action="" style="text-align: center; background-color: aquamarine; justify-content: center;">
+
+        <!-- this is normal email field -->
+        <label for="emailID">Enter the email: </label>
+        <input type="email" name="" id="emailID" placeholder="Joe@email.com">
+
+        <!-- this phone number filed only accepts 10 digit numbers -->
+        <label for="phoneNumber">Apna number likhein: </label>
+        <input type="tel" name="" id="phoneNumber" placeholder="9876543210" pattern="[0-9]{10, 10}">
+
+        <!-- this is the text field for large description area -->
+        <label for="tArea">Your thoughts: </label>
+        <textarea name="" id="tArea" placeholder="Enter here..." rows="5" cols="100"></textarea>
+
+        this password field takes minimum 8 characters
+        <label for="pWord">Enter your password: </label>
+        <input type="password" name="" id="pWord" placeholder="Type here..." pattern="[0-9a-zA-Z]{8,}" required>
+        <input type="submit">
+
+    </form>
+
+</body>
+
+</html>
