@@ -18,6 +18,8 @@ console.log(runFn(8));
 // Hoisting for var and let
 console.log(`value of a: ${a}`);
 // console.log(`value of b: ${b}`);  // throws an error
+// console.log(`value of c: ${c}`); // throws an error
 
 var a = "Hey";
 let b = "Hello";
+const c = "namaste";
